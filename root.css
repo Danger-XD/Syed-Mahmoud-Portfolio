@@ -1,0 +1,20 @@
+/* layout reset */
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    min-height: 100vh;
+    background: var(--background-color1);
+}
+
+/* root colors */
+:root{
+    --background-color1: #1E1E1E;
+    --element-color1: #FD6F00;
+}
