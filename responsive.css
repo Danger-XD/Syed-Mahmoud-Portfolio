@@ -1,0 +1,35 @@
+@media only screen and (width<576px) {
+    /* navbar starts here */
+    .container{
+        max-width: 100%;
+        margin: 0px;
+    } 
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+    .navbar-btn{
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 10px;
+    }
+    .navbar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* navbar ends here */
+}
+@media only screen and (576px <= width) and (width <= 768px) {
+    .container{
+        max-width: 720px;
+    } 
+
+}
+@media only screen and (768px < width) and (width<= 992px){
+    .container{
+        max-width: 960px;
+    } 
+
+}

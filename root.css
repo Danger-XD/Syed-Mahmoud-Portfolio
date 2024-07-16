@@ -11,10 +11,16 @@ html{
 body{
     min-height: 100vh;
     background: var(--background-color1);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
 }
 
 /* root colors */
 :root{
     --background-color1: #1E1E1E;
     --element-color1: #FD6F00;
+    --element-color2: #000;
+    --element-color3: #fff;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik:wght@300..900&display=swap');
