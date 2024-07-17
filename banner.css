@@ -1,54 +1,168 @@
 /* all import urls related to banner*/
-@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap");
 
-/* element css  */
-.container{
-    max-width: 1140px;
-    margin: 0px auto;
+/* navbar element css */
+.container {
+  max-width: 1020px;
+  margin: 0px auto;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 0;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
 }
-.logo{
-    display: flex;
-    align-items: center;
+.logo {
+  display: flex;
+  align-items: center;
 }
-.logo h4{
-    font-family: "Almendra SC", serif;
-    font-weight: 600;
-    font-size: 34px;
-    color: var(--element-color1);
+.logo h4 {
+  font-family: "Almendra SC", serif;
+  font-weight: 600;
+  font-size: 34px;
+  color: var(--element-color1);
 }
-.navbar-btn{
-    display: flex;
-    align-items: center;
-    gap: 24px;
+.navbar-btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
-.navbar ul{
-    display: flex;
-    gap: 10px;
+.navbar ul {
+  display: flex;
+  gap: 10px;
 }
-.navbar ul li{
-    list-style: none;
+.navbar ul li {
+  list-style: none;
 }
-.navbar ul li a{
-    padding: 0 30px;
-    text-decoration: none;
-    display: inline-block;
-    color: var(--element-color3);
-    font-size: 21px;
-    padding: 10px 14px;
+.navbar ul li a {
+  padding: 0 30px;
+  text-decoration: none;
+  display: inline-block;
+  color: var(--element-color3);
+  font-size: 21px;
+  padding: 10px 14px;
 }
-.downCv-btn{
-    width: 160px;
-    height: 50px;
-    font-size: 18px;
-    color: var(--element-color3);
-    background-color: var(--element-color1);
-    border: none;
-    cursor: pointer;
+.downCv-btn {
+  width: 160px;
+  height: 50px;
+  font-size: 18px;
+  color: var(--element-color3);
+  background-color: var(--element-color1);
+  border: none;
+  cursor: pointer;
 }
 
-/*  */
+/* banner element css */
+.banner {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.banner-upper-side {
+  display: flex;
+  padding-top: 30px;
+}
+.banner-titles-side {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.title-word {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+.Ctg-color {
+  color: var(--element-color1);
+}
+.banner-description {
+  color: var(--element-color4);
+  margin: 10px 0px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  text-align: justify;
+}
+.banner-skills {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.banner-skills p {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: none;
+}
+.portfolio-btn-board {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 70px;
+  margin: 10px 0px;
+  border-radius: 50px;
+  border: 2px solid var(--element-color4);
+  background-color: var(--element-color5);
+}
+.portfolio-btn {
+  height: 85%;
+  width: 60%;
+  font-size: 24px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--element-color1);
+  color: var(--element-color3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.portfolio-arrow {
+  width: 26px;
+}
+.portfolio-btn-board p {
+  font-size: 24px;
+  margin-right: 20px;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+.banner-img-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-frame {
+  width: 90%;
+  border: 5px solid var(--element-color4);
+  border-radius: 100%;
+  margin-left: 10px;
+}
+.img-frame img {
+  width: 100%;
+}
+.banner-lower-side {
+  position: absolute;
+  bottom: 0px;
+  left: -40px;
+  width: 1300px;
+  height: 150px;
+  rotate: -6deg;
+}
+.tool-box {
+  height: 100%;
+  width: 100%;
+  background-color: var(--element-color2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.tool-box p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

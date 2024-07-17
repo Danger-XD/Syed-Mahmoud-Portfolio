@@ -1,5 +1,4 @@
-@media only screen and (width<576px) {
-    /* navbar starts here */
+@media only screen and (width< 576px) {
     .container{
         max-width: 100%;
         margin: 0px;
@@ -20,8 +19,11 @@
         justify-content: center;
     }
     /* navbar ends here */
+    .banner-lower-side{
+        display: none;
+    }
 }
-@media only screen and (576px <= width) and (width <= 768px) {
+/* @media only screen and (576px <= width) and (width <= 768px) {
     .container{
         max-width: 720px;
     } 
@@ -32,4 +34,4 @@
         max-width: 960px;
     } 
 
-}
+} */

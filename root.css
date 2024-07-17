@@ -4,15 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+html,body{
     height: 100%;
     width: 100%;
 }
 body{
-    min-height: 100vh;
     background: var(--background-color1);
     font-family: "Rubik", sans-serif;
     font-weight: 400;
+    color: var(--element-color3);
+    overflow-x: hidden;
 }
 
 /* root colors */
@@ -21,6 +22,9 @@ body{
     --element-color1: #FD6F00;
     --element-color2: #000;
     --element-color3: #fff;
+    --element-color4: #ffffff8a;
+    --element-color5: #ffffff2c;
+    --element-color6: #FF2833;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik:wght@300..900&display=swap');
