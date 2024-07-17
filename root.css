@@ -1,30 +1,44 @@
 /* layout reset */
-*,*::before,*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-body{
-    background: var(--background-color1);
-    font-family: "Rubik", sans-serif;
-    font-weight: 400;
-    color: var(--element-color3);
-    overflow-x: hidden;
+body {
+  background: var(--background-color1);
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: var(--element-color3);
+  overflow-x: hidden;
+}
+footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 /* root colors */
-:root{
-    --background-color1: #1E1E1E;
-    --element-color1: #FD6F00;
-    --element-color2: #000;
-    --element-color3: #fff;
-    --element-color4: #ffffff8a;
-    --element-color5: #ffffff2c;
-    --element-color6: #FF2833;
+:root {
+  --background-color1: #1e1e1e;
+  --element-color1: #fd6f00;
+  --element-color2: #000;
+  --element-color3: #fff;
+  --element-color4: #ffffff8a;
+  --element-color5: #ffffff2c;
+  --element-color6: #ff2833;
+  --element-color7: linear-gradient(
+    270.16deg,
+    rgba(255, 177, 71, 0.1) 5.74%,
+    rgba(255, 108, 99, 0.1) 50.64%,
+    rgba(184, 106, 223, 0.1) 92.05%
+  );
+  --element-color8: #FD6F001A;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik:wght@300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik:wght@300..900&display=swap");

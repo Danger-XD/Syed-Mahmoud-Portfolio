@@ -73,14 +73,15 @@
   font-weight: 800;
   letter-spacing: -2px;
 }
-.Ctg-color {
+.orange-text {
   color: var(--element-color1);
 }
-.banner-description {
+.description-word {
   color: var(--element-color4);
-  margin: 10px 0px;
+  margin: 20px 0px;
   font-size: 16px;
   letter-spacing: 0.8px;
+  line-height: 22px;
   text-align: justify;
 }
 .banner-skills {
@@ -100,7 +101,7 @@
   justify-content: space-between;
   width: 300px;
   height: 70px;
-  margin: 10px 0px;
+  margin: 20px 0px;
   border-radius: 50px;
   border: 2px solid var(--element-color4);
   background-color: var(--element-color5);

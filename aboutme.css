@@ -1,4 +1,41 @@
 .about-me{
     min-height: 100vh;
-    margin-top: 100px;
+    margin-top: 90px;
+    background: var(--element-color7);
 }
+.aboutme-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 0px;
+
+}
+.introduction{
+    width: 80%;
+}
+.my-goal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.career-goal-part{
+    display: flex;
+    justify-content: space-between;
+}
+.career-goal{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.career-goal-img{
+    margin-right: 20px;
+    height: 300px;
+}
+.career-goal-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+}
+
