@@ -1,20 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik:wght@300..900&display=swap");
-.contact{
-    min-height: 100vh;
-    margin: 50px 0px;
+.contact-me {
+  padding: 50px 0px;
 }
-.contact-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0px;
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-.contact-title h4{
-    font-style: italic;
-    margin-bottom: 10px;
+.contact-title h4 {
+  font-style: italic;
 }
-.contact-box{
-    display: flex;
-    background-color: var(--element-color8);
+.contact-container {
+  display: flex;
+  background-color: var(--element-color8);
+}
+.contact-box {
+  width: calc(100% - 350px);
+  padding: 50px;
+}
+.contact-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input,
+textarea {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  border-bottom: 1px solid var(--element-color3);
+  color: var(--element-color3);
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+}
+input:focus,
+textarea:focus{
+  border: 1px solid var(--element-color4);
+  border-radius: 10px;
+}
+textarea::placeholder,
+input::placeholder {
+  color: var(--element-color3);
+}
+.submit-btn{
+    background-color: var(--element-color1);
+    cursor: pointer;
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px ;
+}
+.contact-location{
+  display: flex;
+  align-items: center;
+}
+.location-map{
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
 }

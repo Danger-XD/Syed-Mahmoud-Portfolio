@@ -1,5 +1,4 @@
 .about-me{
-    min-height: 100vh;
     margin-top: 90px;
     background: var(--element-color7);
 }
@@ -8,7 +7,6 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 50px 0px;
-
 }
 .introduction{
     width: 80%;

@@ -5,6 +5,7 @@
 .container {
   max-width: 1020px;
   margin: 0px auto;
+  padding: 50px 0px;
 }
 .navbar {
   display: flex;
@@ -53,7 +54,7 @@
 
 /* banner element css */
 .banner {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -78,7 +79,7 @@
 }
 .description-word {
   color: var(--element-color4);
-  margin: 20px 0px;
+  margin: 10px 0px;
   font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 22px;
@@ -137,7 +138,7 @@
   align-items: center;
 }
 .img-frame {
-  width: 90%;
+  width: 100%;
   border: 5px solid var(--element-color4);
   border-radius: 100%;
   margin-left: 10px;
@@ -147,9 +148,9 @@
 }
 .banner-lower-side {
   position: absolute;
-  bottom: 0px;
-  left: -40px;
-  width: 1300px;
+  bottom: 10px;
+  left: -30px;
+  width: 1400px;
   height: 150px;
   rotate: -6deg;
 }
@@ -163,7 +164,7 @@
   gap: 30px;
 }
 .tool-box p {
-  font-size: 20px;
+  font-size: 26px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }

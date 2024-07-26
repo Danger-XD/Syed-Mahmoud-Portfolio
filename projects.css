@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik:wght@300..900&display=swap");
+
+.project {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+    justify-content: center; */
+  background: var(--element-color7);
+}
+.title {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-types {
+  margin: 20px 0px 40px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.project-btn {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--element-color1);
+}
+.project-btn:hover {
+  background-color: var(--element-color2);
+  color: var(--element-color3);
+}
+.project-frame {
+  display: flex;
+  flex-direction: column;
+}
+.project-box-left {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.project-box-right {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.project-img {
+  height: 100%;
+}
+.project-img img {
+  width: 100%;
+  height: 100%;
+}
+.project-description {
+  padding: 30px;
+}
+.project-title p {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 15px;
+  color: var(--element-color4);
+}
+.project-title h2 {
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.project-summary h4{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+}
+.project-summary p{
+    font-size: 16px;
+    color: var(--element-color4);
+    letter-spacing: 0.8px;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 26px;
+}

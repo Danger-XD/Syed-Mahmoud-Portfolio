@@ -21,24 +21,26 @@
     <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
-    <!-- Navbar section starts here -->
     <header>
+      <!-- Navbar section starts here -->
       <nav class="navbar container">
         <div class="logo"><h4>SOBHANI</h4></div>
         <div class="navbar-btn">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Project</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Project</a></li>
             <li><a href="">Testimonials</a></li>
           </ul>
           <button class="downCv-btn">Download CV</button>
         </div>
       </nav>
+      <!-- Navbar section ends here -->
     </header>
-    <!-- Banner section starts here -->
+
     <main>
-      <section class="banner">
+      <!-- banner section starts here -->
+      <section class="banner" id="banner">
         <section class="banner-upper-side container">
           <div class="banner-titles-side">
             <div class="banner-title">
@@ -123,8 +125,10 @@
           </div>
         </section>
       </section>
+      <!-- banner section ends here -->
 
-      <section class="about-me">
+      <!-- About me section starts here -->
+      <section class="about-me" id="about-me">
         <section class="aboutme-part container">
           <div class="introduction">
             <h1 class="title-word">about me</h1>
@@ -166,8 +170,10 @@
           </div>
         </section>
       </section>
+      <!-- About me section ends here -->
 
-      <section class="awards-certificates">
+      <!-- awards section starts here -->
+      <section class="awards-certificates" id="awards">
         <section class="certifications container">
           <div class="titles">
             <h1 class="title-word">awards and certifications</h1>
@@ -210,27 +216,126 @@
           </div>
         </section>
       </section>
-      <!-- <section class="projects"></section> -->
-      <section class="contact">
+      <!-- awards section ends here -->
+
+      <!-- portfolio section starts here -->
+      <section class="project" id="projects">
+        <div class="projects container">
+          <div class="title">
+            <h1 class="title-word">my portfolio</h1>
+            <p class="description-word">
+              Here, you can see all my Projects that I built individually and
+              with team.
+            </p>
+          </div>
+          <div class="project-types">
+            <button class="project-btn">Static Website</button>
+            <button class="project-btn">Full Stack Website</button>
+          </div>
+          <div class="project-frame">
+            <div class="project-box-left">
+              <div class="project-img">
+                <a
+                  target="_blank"
+                  href="https://github.com/Danger-XD/Nexatech_website"
+                  ><img src="./assets/images/project 1.PNG" alt=""
+                /></a>
+              </div>
+              <div class="project-description">
+                <div class="project-title">
+                  <p>Responsive Website</p>
+                  <h2>NexaTech Online Shop</h2>
+                </div>
+                <div class="project-summary">
+                  <h4>Tools: HTML 5, CSS 3, Bootstrap</h4>
+                  <p>
+                    Nexatech website—a labor of creativity crafted to master
+                    website responsiveness, animations, and seamless
+                    transitions. 🌐
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="project-box-right">
+              <div class="project-description">
+                <div class="project-title">
+                  <p>Responsive Website</p>
+                  <h2>Drop Cream & Co.</h2>
+                </div>
+                <div class="project-summary">
+                  <h4>Tools: HTML 5, CSS 3, Bootstrap</h4>
+                  <p>
+                    I completed building this static website using HTML, CSS and
+                    Bootstrap. It is fully responsive and updatable. Tested AI
+                    as an assistant for many pseudo part of website and
+                    learnings.
+                  </p>
+                </div>
+              </div>
+              <div class="project-img">
+                <a
+                  target="_blank"
+                  href="https://boisterous-biscotti-8a5044.netlify.app/"
+                >
+                  <img src="./assets/images/project 2.PNG" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio section ends here -->
+
+      <!-- contact me section starts here -->
+      <section class="contact" id="contact">
         <div class="contact-me container">
           <div class="contact-title">
             <h4>CONTACT</h4>
             <h1 class="title-word">reach out to me</h1>
           </div>
-          <div class="contact-box">
-            <div class="contact-form">
-              <form action="https://mail.google.com/mail/u/0/#inbox?compose=new" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="_replyto" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
+          <div class="contact-container">
+            <div class="contact-box">
+              <h1 class="title-word">any projects</h1>
+              <form
+                action="https://api.web3forms.com/submit"
+                method="POST"
+                class="contact-form"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="def09469-e061-4d27-ad64-fdb9da49549e"
+                />
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Name"
+                  required
+                />
+
+                <input type="email" name="email" placeholder="Email" required />
+
+                <input
+                  type="text"
+                  name="phone-number"
+                  placeholder="WhatsApp Number"
+                  required
+                />
+
+                <textarea
+                  name="messages"
+                  id="textareabox"
+                  placeholder="Message"
+                  rows="3"
+                ></textarea>
+
+                <input type="submit" value="Submit Now" class="submit-btn" />
               </form>
             </div>
             <div class="contact-location">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1844.881312508504!2d91.82499483181188!3d22.36259014304575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90898f3038d%3A0x7e670adbe999e970!2sJumairah%20Lamsi%20Palace!5e0!3m2!1sen!2sbd!4v1721238212062!5m2!1sen!2sbd"
-                width="400"
-                height="400"
+                class="location-map"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
@@ -240,8 +345,11 @@
           </div>
         </div>
       </section>
+      <!-- contact me section ends here -->
     </main>
+
     <footer>
+      <!-- footer starts here -->
       <section class="footer">
         <div class="logo-btns">
           <div class="footer-logo">
@@ -280,11 +388,5 @@
         </div>
       </section>
     </footer>
-    <!-- common 
-     title-word
-     description-word
-     orange-text
-     sub-title
-      -->
   </body>
 </html>
