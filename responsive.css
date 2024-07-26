@@ -1,27 +1,205 @@
-@media only screen and (width< 576px) {
-    .container{
-        max-width: 100%;
-        margin: 0px;
-    } 
-    .navbar{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 50px 0;
-    }
-    .navbar-btn{
-        flex-direction: column;
-        gap: 0px;
-        margin-top: 10px;
-    }
-    .navbar ul{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    /* navbar ends here */
-    .banner-lower-side{
-        display: none;
-    }
+@media only screen and (width < 576px) {
+  .container {
+    max-width: 100% !important;
+    margin: 0px;
+    padding: 30px 0px !important;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 !important;
+  }
+  .navbar-btn {
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 10px;
+  }
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* navbar ends here */
+  /* banner section starts here */
+  .banner-upper-side {
+    padding-top: 0px;
+    flex-direction: column;
+  }
+  .banner-titles-side {
+    order: 1;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .title-word {
+    text-align: center;
+  }
+  .banner-skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px !important;
+  }
+  .social-icons {
+    justify-content: center;
+    gap: 30px !important;
+    margin-bottom: 20px;
+  }
+  .banner-img-side {
+    order: 2;
+  }
+  .img-frame {
+    width: 80% !important;
+    margin-left: 0px !important;
+  }
+  .banner-lower-side {
+    display: none;
+  }
+  /* banner section ends here */
+
+  /* about-me section starts here */
+  .about-me {
+    margin-top: 0px !important;
+  }
+  .aboutme-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px !important;
+  }
+  .introduction {
+    order: 1;
+    width: 100% !important;
+  }
+  .my-goal {
+    width: 100% !important;
+    align-items: center !important;
+    margin-top: 20px;
+    order: 2;
+  }
+  .goal-stars {
+    font-size: 26px;
+  }
+  .career-goal-part {
+    flex-direction: column;
+  }
+  .career-goal-img {
+    order: 2;
+  }
+  .career-goal-img {
+    margin-right: 0px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .career-goal-img img {
+    width: 90% !important;
+  }
+  .career-goal {
+    order: 1;
+    width: 100% !important;
+    padding: 0px 10px;
+    align-items: center !important;
+  }
+  /* about-me section ends here */
+
+  /* awards section starts here */
+  .titles {
+    padding: 20px 10px !important;
+  }
+  .document-box {
+    height: fit-content !important;
+  }
+  .award-title {
+    flex-direction: column;
+    align-items: center;
+  }
+  .award-for {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .award-by {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .award-desc p {
+    width: 100% !important;
+  }
+  /* awards section ends here */
+
+  /* portfolio section starts here */
+  .portfolio-title {
+    padding: 0px 10px !important;
+  }
+  .project-types {
+    margin: 20px 0px !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+  }
+  .project-btn {
+    font-size: 18px !important;
+    padding: 10px 12px !important;
+  }
+  .project-frame{
+    padding: 10px;
+  }
+  .project-box-left {
+    flex-direction: column;
+    height: fit-content !important;
+  }
+  .project-box-right {
+    height: fit-content !important;
+    flex-direction: column;
+  }
+  .project-img {
+    order: 2;
+  }
+  .project-description {
+    padding: 0px !important;
+    order: 1;
+    height: fit-content !important;
+  }
+  /* portfolio section ends here */
+
+  /* contact me starts here */
+  .contact-container {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .contact-box {
+    width: 100% !important;
+    padding: 0px !important;
+    order: 1;
+  }
+  .contact-location{
+    margin-top: 30px;
+    order: 2;
+    justify-content: center;
+  }
+  .location-map{
+    height: 100% !important ;
+  }
+  /* contact me ends here */
+
+  /* footer starts here */
+  .logo-btns {
+    height: fit-content !important;
+    padding: 50px 0px;
+  }
+  .nav-btns{
+    margin: 30px 0px !important;
+}
+  .nav-btns ul{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0px !important;
+}
+.copyright {
+    height: fit-content !important;
+    padding: 30px 0px;
+  }
+  .copyright p {
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+  }
+  /* footer ends here */
 }
 /* @media only screen and (576px <= width) and (width <= 768px) {
     .container{
