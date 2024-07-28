@@ -49,10 +49,12 @@
   display: flex;
   justify-content: space-between;
   height: 300px;
+  width: 100%;
   margin-bottom: 30px;
 }
 .project-img {
   height: 100%;
+  width: calc(100% - 60%);
 }
 .project-img img {
   width: 100%;
@@ -60,6 +62,7 @@
 }
 .project-description {
   padding: 30px;
+  width: calc(100% - 40%);
 }
 .project-title p {
   font-size: 20px;

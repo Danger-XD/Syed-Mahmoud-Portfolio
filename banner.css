@@ -1,5 +1,6 @@
 /* all import urls related to banner*/
 @import url("https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins&family=Style+Script&display=swap');
 
 /* navbar element css */
 .container {
@@ -17,9 +18,10 @@
   align-items: center;
 }
 .logo h4 {
-  font-family: "Almendra SC", serif;
+  font-family: "Style Script", cursive;
   font-weight: 600;
-  font-size: 34px;
+  font-style: normal;
+  font-size: 38px;
   color: var(--element-color1);
 }
 .navbar-btn {
@@ -136,14 +138,10 @@
   justify-content: center;
   align-items: center;
 }
-.img-frame {
+
+.banner-img-side img {
   width: 100%;
-  border: 5px solid var(--element-color4);
-  border-radius: 100%;
   margin-left: 10px;
-}
-.img-frame img {
-  width: 100%;
 }
 .banner-lower-side {
   position: absolute;

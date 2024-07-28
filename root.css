@@ -19,6 +19,9 @@ body {
   color: var(--element-color3);
   overflow-x: hidden;
 }
+main{
+  overflow: hidden;
+}
 footer {
   font-family: "Poppins", sans-serif;
   font-weight: 400;

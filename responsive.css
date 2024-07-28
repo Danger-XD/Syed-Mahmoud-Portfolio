@@ -27,7 +27,7 @@
   }
   .banner-titles-side {
     order: 1;
-    width: 100%;
+    width: 90% !important;
     margin: 0px auto;
   }
   .title-word {
@@ -38,6 +38,9 @@
     justify-content: center;
     gap: 8px !important;
   }
+  .portfolio-btn-board {
+    margin: 20px auto !important;
+  }
   .social-icons {
     justify-content: center;
     gap: 30px !important;
@@ -46,8 +49,7 @@
   .banner-img-side {
     order: 2;
   }
-  .img-frame {
-    width: 80% !important;
+  .banner-img-side img {
     margin-left: 0px !important;
   }
   .banner-lower-side {
@@ -137,7 +139,7 @@
     font-size: 18px !important;
     padding: 10px 12px !important;
   }
-  .project-frame{
+  .project-frame {
     padding: 10px;
   }
   .project-box-left {
@@ -150,9 +152,11 @@
   }
   .project-img {
     order: 2;
+    width: 100% !important;
   }
   .project-description {
     padding: 0px !important;
+    width: 100% !important;
     order: 1;
     height: fit-content !important;
   }
@@ -168,12 +172,12 @@
     padding: 0px !important;
     order: 1;
   }
-  .contact-location{
+  .contact-location {
     margin-top: 30px;
     order: 2;
     justify-content: center;
   }
-  .location-map{
+  .location-map {
     height: 100% !important ;
   }
   /* contact me ends here */
@@ -183,15 +187,15 @@
     height: fit-content !important;
     padding: 50px 0px;
   }
-  .nav-btns{
+  .nav-btns {
     margin: 30px 0px !important;
-}
-  .nav-btns ul{
+  }
+  .nav-btns ul {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 0px !important;
-}
-.copyright {
+  }
+  .copyright {
     height: fit-content !important;
     padding: 30px 0px;
   }
@@ -201,37 +205,401 @@
   }
   /* footer ends here */
 }
- /* @media only screen and (576px <= width) and (width <= 768px) {
-    body{
-        overflow-x: hidden !important;
-    }
-    .container{
-        max-width: 720px !important;
-    } 
-    .banner {
-        min-height: fit-content !important;
-        position: relative;
-      }
-    .banner-lower-side {
-        position: absolute;
-        bottom: 10px;
-        left: -10px !important;
-        width: 900px !important;
-        height:80px !important;
-        rotate: -6deg;
-      }
-      .tool-box {
-        gap: 10px !important;
-      }
-      .tool-box p {
-        font-size: 16px !important;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-      }
-      
-} */
-/*@media only screen and (768px < width) and (width<= 992px){
-    .container{
-        max-width: 960px;
-    } 
-} */
+@media only screen and (576px <= width) and (width <= 768px) {
+  .container {
+    max-width: 600px !important;
+    padding: 30px 0px !important;
+  }
+  .banner {
+    min-height: fit-content !important;
+ 
+  }
+  .banner-lower-side {
+    bottom: 30px !important;
+    left: -10px !important;
+    width: 800px !important;
+    height: 100px !important;
+    rotate: -6deg;
+  }
+  .tool-box {
+    gap: 10px !important;
+  }
+  .tool-box p {
+    font-size: 16px !important;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 0px !important;
+  }
+  .navbar-btn {
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 10px;
+  }
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* navbar ends here */
+  /* banner section starts here */
+  .banner-upper-side {
+    padding-top: 0px;
+    flex-direction: column;
+  }
+  .banner-titles-side {
+    order: 1;
+    width: 90% !important;
+    margin: 0px auto;
+  }
+  .title-word {
+    text-align: center;
+  }
+  .banner-skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px !important;
+  }
+  .banner-skills p {
+    font-size: 16px !important;
+  }
+  .portfolio-btn-board {
+    margin: 20px auto !important;
+  }
+  .social-icons {
+    justify-content: center;
+    gap: 30px !important;
+    margin-bottom: 20px;
+  }
+  .banner-img-side {
+    order: 2;
+  }
+  .banner-img-side img {
+    width: 70% !important;
+    margin-left: 0px !important;
+  }
+
+  /* banner section ends here */
+
+  /* about-me section starts here */
+  .about-me {
+    margin-top: 20px !important;
+  }
+  .aboutme-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px 0px !important;
+  }
+  .introduction {
+    order: 1;
+    width: 100% !important;
+  }
+  .my-goal {
+    width: 100% !important;
+    align-items: center !important;
+    margin-top: 30px !important;
+    order: 2;
+  }
+  .goal-stars {
+    font-size: 26px;
+  }
+  .career-goal-part {
+    flex-direction: column;
+  }
+  .career-goal-img {
+    order: 2;
+    margin-right: 0px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .career-goal-img img {
+    width: 70% !important;
+  }
+  .career-goal {
+    order: 1;
+    width: 100% !important;
+    padding: 0px 10px;
+    align-items: center !important;
+  }
+  /* about-me section ends here */
+
+  /* awards section starts here */
+  .titles {
+    padding: 20px 10px !important;
+  }
+  .document-box {
+    height: fit-content !important;
+  }
+  .award-title {
+    flex-direction: column;
+    align-items: center;
+  }
+  .award-for {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .award-by {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .award-desc p {
+    width: 100% !important;
+  }
+  /* awards section ends here */
+
+  /* portfolio section starts here */
+  .portfolio-title {
+    padding: 0px 10px !important;
+  }
+  .project-types {
+    margin: 20px 0px !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+  }
+  .project-btn {
+    font-size: 18px !important;
+    padding: 10px 12px !important;
+  }
+  .project-frame {
+    padding: 10px;
+  }
+  .project-box-left {
+    flex-direction: column;
+    height: fit-content !important;
+  }
+  .project-box-right {
+    height: fit-content !important;
+    flex-direction: column;
+  }
+  .project-img {
+    order: 2;
+    width: 100% !important;
+  }
+  .project-description {
+    padding: 0px !important;
+    width: 100% !important;
+    order: 1;
+    height: fit-content !important;
+  }
+  /* portfolio section ends here */
+
+  /* contact me starts here */
+  .contact-container {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .contact-box {
+    width: 100% !important;
+    padding: 0px !important;
+    order: 1;
+  }
+  .contact-location {
+    margin-top: 30px;
+    order: 2;
+    justify-content: center;
+  }
+  .location-map {
+    height: 300px !important ;
+  }
+  /* contact me ends here */
+
+  /* footer starts here */
+  .logo-btns {
+    height: fit-content !important;
+    padding: 50px 0px;
+  }
+  .nav-btns {
+    margin: 30px 0px !important;
+  }
+  .nav-btns ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px !important;
+  }
+  .copyright {
+    height: fit-content !important;
+    padding: 30px 0px;
+  }
+  .copyright p {
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+  }
+  /* footer ends here */
+}
+@media only screen and (769px <= width) and (width <= 1020px) {
+  .container {
+    max-width: 900px !important;
+    padding: 30px 0px 50px !important;
+  }
+  .banner {
+    max-height: fit-content !important;
+  }
+  .banner-lower-side {
+    bottom: 40px !important;
+    left: -30px !important;
+    width: 1040px !important;
+    height: 100px !important;
+    rotate: -6deg;
+  }
+  .tool-box {
+    gap: 14px !important;
+  }
+  .tool-box p {
+    font-size: 20px !important;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 0px !important;
+  }
+  .navbar-btn {
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 10px;
+  }
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* navbar ends here */
+  /* banner section starts here */
+  .banner-upper-side {
+    padding-top: 0px;
+    flex-direction: column;
+  }
+  .banner-titles-side {
+    order: 1;
+    width: 90% !important;
+    margin: 0px auto;
+  }
+  .title-word {
+    text-align: center;
+    font-size: 42px !important;
+    font-weight: 800;
+    letter-spacing: -2px !important;
+  }
+  .banner-skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px !important;
+  }
+  .banner-skills p {
+    font-size: 22px !important;
+  }
+  .portfolio-btn-board {
+    margin: 20px auto !important;
+  }
+  .social-icons {
+    justify-content: center;
+    gap: 30px !important;
+    margin-bottom: 20px;
+  }
+  .banner-img-side {
+    order: 2;
+  }
+  .banner-img-side img {
+    width: 50% !important;
+    margin-left: 0px !important;
+  }
+
+  /* banner section ends here */
+
+  /* about-me section starts here */
+  .about-me {
+    margin-top: 20px !important;
+  }
+  .aboutme-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px 0px !important;
+  }
+  .introduction {
+    order: 1;
+    width: 100% !important;
+  }
+  .my-goal {
+    width: 100% !important;
+    align-items: center !important;
+    margin-top: 30px !important;
+    order: 2;
+  }
+  .goal-stars {
+    font-size: 26px;
+  }
+  .career-goal{
+    padding: 0px 10px;
+  }
+  .career-goal-img img {
+    width: 100% !important;
+  }
+  /* about-me section ends here */
+
+  /* awards section starts here */
+  .titles {
+    padding: 20px 10px !important;
+  }
+  .document-box {
+    height: fit-content !important;
+  }
+  .award-title {
+    margin-bottom: 14px;
+  }
+  .award-desc p {
+    width: 100% !important;
+  }
+  /* awards section ends here */
+
+  /* portfolio section starts here */
+  .project-frame {
+    padding: 10px;
+  }
+
+  /* portfolio section ends here */
+
+  /* contact me starts here */
+  /* .contact-container {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .contact-box {
+    width: 100% !important;
+    padding: 0px !important;
+    order: 1;
+  }
+  .contact-location {
+    margin-top: 30px;
+    order: 2;
+    justify-content: center;
+  }
+  .location-map {
+    height: 300px !important ;
+  } */
+  /* contact me ends here */
+
+  /* footer starts here */
+  .logo-btns {
+    height: fit-content !important;
+    padding: 50px 0px;
+  }
+  .nav-btns {
+    margin: 30px 0px !important;
+  }
+  .nav-btns ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px !important;
+  }
+  .copyright {
+    height: fit-content !important;
+    padding: 30px 0px;
+  }
+  .copyright p {
+    font-size: 20px !important;
+    letter-spacing: 1px !important;
+  }
+  /* footer ends here */
+}

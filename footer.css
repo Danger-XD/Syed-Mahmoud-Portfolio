@@ -7,29 +7,30 @@
   justify-content: center;
   align-items: center;
 }
-.footer-logo{
-    font-family: "Almendra SC", serif;
-    font-weight: 900;
-    font-size: 54px;
-    color: var(--element-color1);
+.footer-logo {
+  font-family: "Style Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 54px;
+  color: var(--element-color1);
 }
-.nav-btns{
-    margin: 60px 0px;
+.nav-btns {
+  margin: 60px 0px;
 }
-.nav-btns ul{
-    display: flex;
-    gap: 20px;
+.nav-btns ul {
+  display: flex;
+  gap: 20px;
 }
-.nav-btns ul li{
-    list-style: none;
+.nav-btns ul li {
+  list-style: none;
 }
-.nav-btns ul li a{
-    padding: 10px 14px;
-    display: inline-block;
-    text-decoration: none;
-    color: var(--element-color3);
-    font-size: 21px;
-    letter-spacing: 3px;
+.nav-btns ul li a {
+  padding: 10px 14px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--element-color3);
+  font-size: 21px;
+  letter-spacing: 3px;
 }
 .copyright {
   width: 100%;
@@ -42,7 +43,7 @@
   font-size: 21px;
   letter-spacing: 3px;
 }
-.footer-icons{
-    display: flex;
-    gap: 20px;
+.footer-icons {
+  display: flex;
+  gap: 20px;
 }
