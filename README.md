@@ -31,6 +31,6 @@ This portfolio website is designed to highlight my expertise in web development,
 
 If you have any questions or would like to connect, feel free to reach out:
 
-Email: syedmahmoud41@gmail.com
-LinkedIn: www.linkedin.com/in/syed-mahmoud-sobhani-82a6371b4
+Email: syedmahmoud41@gmail.com </br>
+LinkedIn: www.linkedin.com/in/syed-mahmoud-sobhani-82a6371b4 </br>
 GitHub: https://github.com/Danger-XD
