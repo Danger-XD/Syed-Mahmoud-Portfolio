@@ -35,9 +35,25 @@
 }
 .navbar ul li {
   list-style: none;
+  position: relative;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Centers the underline */
+  opacity: 0; /* Hide by default */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.navbar ul li:hover::after {
+  opacity: 1; /* Show on hover */
+  transform: translateX(-50%) translateY(3px); /* Moves slightly down */
 }
 .navbar ul li a {
-  padding: 0 30px;
   text-decoration: none;
   display: inline-block;
   color: var(--element-color3);
@@ -52,6 +68,10 @@
   background-color: var(--element-color1);
   border: none;
   cursor: pointer;
+  border-radius: 5px;
+}
+.downCv-btn:hover{
+  background-color: var(--element-color9);
 }
 
 /* banner element css */

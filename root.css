@@ -30,7 +30,7 @@ footer {
 /* root colors */
 :root {
   --background-color1: #1e1e1e;
-  --element-color1: #fd6f00;
+  --element-color1: #fd6e00;
   --element-color2: #000;
   --element-color3: #fff;
   --element-color4: #ffffff8a;
@@ -43,6 +43,7 @@ footer {
     rgba(184, 106, 223, 0.1) 92.05%
   );
   --element-color8: #FD6F001A;
+  --element-color9: #ff8527;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rubik:wght@300..900&display=swap");
